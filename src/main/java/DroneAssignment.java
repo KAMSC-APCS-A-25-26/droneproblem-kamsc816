@@ -12,7 +12,29 @@ public class DroneAssignment {
         System.out.println("Battery: " + battery + "%");
         System.out.println("Photos: " + photos);
         System.out.println();
-        
+
+        int displayAltitude = (int)altitude;
+        int batteryRounded = (int)battery;
+        System.out.println("Display Altitude: " + displayAltitude);
+        System.out.println("Battery Rounded: " + batteryRounded);
+        System.out.println();
+
+        altitude += 20;
+        battery -= 15;
+        photos += 3;
+        System.out.println("After climbing 20m: " + altitude);
+        System.out.println("After battery drain: " + battery);
+        System.out.println("After taking 3 photos: " + photos);
+
+        altitude /= 2;
+        System.out.println("After descending to half: " + altitude);
+        System.out.println("Photos: " + photos);
+
+        photos %= 4;
+        System.out.println("Storage slots used: " + photos + "out of 4");
+
+
+
         // TODO: Part 1 - Casting
         // Cast altitude (double) to int called displayAltitude
         // Cast battery (double) to int called batteryRounded
@@ -26,5 +48,6 @@ public class DroneAssignment {
         // use modulo to calculate storage slots used on photos to calculate storage slots used
         // Display "Photos: " + photos
         // Display "Storage slots used: " + photos + " out of 4"
+
     }
 }

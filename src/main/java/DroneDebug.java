@@ -1,4 +1,4 @@
-
+// DO NOT CHANGE THE CLASS NAME, IT WILL BREAK THE AUTO GRADER
 public class DroneDebug {
     public static void main(String[] args) {
         // Drone surveillance mission with syntax errors
@@ -22,7 +22,7 @@ public class DroneDebug {
 
         int fuelRounded = (int) fuelLevel;
 
-        int timeInt = (int) missionTime;
+        int timeInt = (int)missionTime;
 
         // Part 2 - Mission operations
         flightHeight += 50;

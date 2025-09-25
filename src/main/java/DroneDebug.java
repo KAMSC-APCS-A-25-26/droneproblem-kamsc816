@@ -1,4 +1,4 @@
-// DO NOT CHANGE THE CLASS NAME, IT WILL BREAK THE AUTO GRADER
+
 public class DroneDebug {
     public static void main(String[] args) {
         // Drone surveillance mission with syntax errors
